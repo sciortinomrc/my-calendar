@@ -31,7 +31,6 @@ const Reminders=(props)=>{
 				{reminders}
 			</div>
 			<div className="extended" onMouseOut={(e)=>{
-					console.log(e.target)
 					if(!e.target.classList.contains("exteded") || !e.target.parentNode.classList.contains("extended"))
 						e.target.style.display=""
 				}}>
