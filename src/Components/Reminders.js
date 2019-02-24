@@ -29,7 +29,9 @@ const Reminders=(props)=>{
 				}
 				>
 				{reminders}
+
 			</div>
+			<p className="more">{(reminders.length>3)?"Hover to show more...":""}</p>
 			<div className="extended" onMouseOut={(e)=>{
 					if(!e.target.classList.contains("exteded") || !e.target.parentNode.classList.contains("extended"))
 						e.target.style.display=""

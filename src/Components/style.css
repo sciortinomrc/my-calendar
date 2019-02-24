@@ -138,3 +138,8 @@
 	flex-direction: column;
 	z-index: 100;
 }
+.more{
+	font-size: 10px;
+	color: grey;
+	margin: 2px;
+}
