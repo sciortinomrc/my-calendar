@@ -22,7 +22,7 @@ const Reminders=(props)=>{
 		<React.Fragment>
 			<div className="reminders" 
 				onMouseOver={(e)=>{
-					if(reminders.length>1 && e.target.classList.contains("reminders") 
+					if(reminders.length>3 && e.target.classList.contains("reminders") 
 						&& e.target.parentNode.children[1].classList.contains("extended"))	
 						e.target.parentNode.children[1].style.display=(e.target.parentNode.children[1].style.display==="")?"flex":""
 					}
