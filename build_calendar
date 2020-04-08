@@ -1,0 +1,10 @@
+rm -rf node_modules
+rm package-lock.json
+
+npm install
+
+npm run build
+
+cd build
+
+tar -czvf ../bin/build_calendar.tar.gz .
