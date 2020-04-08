@@ -5,6 +5,9 @@ npm install
 
 npm run build
 
+mkdir -p bin
 cd build
+
+ls
 
 tar -czvf ../bin/build_calendar.tar.gz .
